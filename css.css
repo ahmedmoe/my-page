@@ -30,23 +30,22 @@ body{
 #menu{
   width:100%;
   background-color:#00e600;
-  opacity:0.9;
+  opacity:0.8;
   color:white;
 }
+
 #home{
   padding:20px;
   text-align:center;
   opacity: 0.8;
-
-
 }
+
 #factions{
   text-align:center;
   padding:20px;
   opacity: 0.8;
-
-
 }
+
 #contact{
   text-align:center;
   opacity: 0.8;
@@ -68,14 +67,15 @@ body{
   margin-bottom:10%;
   display:block;
   height:700px;
-  background-color: green;
-  opacity:0.5;
+  background-color: rgba(0,110,0,0.5);
+
 }
 
 .aim img{
   Position:absolute;
   right:50px;
   top:400px;
+  opacity:0.5;
 }
 .content{
   position:absolute;
@@ -148,19 +148,6 @@ body{
   background-image:url("tri4.png");
 }
 
-/*#menu #home:focus{
-  background-color:#00e600;
-  color:white;
-}
-#menu #factions:focus{
-  background-color:#00e600;
-  color:white;
-}
-#menu #contact:focus{
-  background-color:#00e600;
-  color:white;
-}*/
-
 .list1{
   position:absolute;
   left:-100%;
@@ -175,6 +162,9 @@ body{
   color:white;
   width:15%;
   height:50px;
+}
+.list1 div:hover{
+  background-color: rgba(136, 241, 44, 0.8);
 }
 .po{
   background-color:#00e600;
