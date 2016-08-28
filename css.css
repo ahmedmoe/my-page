@@ -170,3 +170,18 @@ body{
   background-color:#00e600;
   color:white;
 }
+.sp{
+  background-color:rgba(0,110,0,0.5);
+  color:white;
+}
+.sp p{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: cursive;
+}
+.sp .quote{
+  text-align: center;
+}
+.sp h2{
+  margin-left: 20px;
+}
